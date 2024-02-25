@@ -23,7 +23,7 @@ html {
 
 body {
     min-height: 100vh;
-    max-width: 96rem;
+    max-width: 60rem;
     display: flex;
     justify-content: center;
     align-items: center;
