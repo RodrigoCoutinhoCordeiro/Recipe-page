@@ -1,0 +1,37 @@
+@media (max-width: 37.5rem) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-recipe {
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+        font-size: .9rem;
+    }
+
+    .recipe-img img{
+        border-radius: 0;
+    }
+
+    .recipe-header {
+        width: 80%;
+        margin: auto;
+    }
+
+    .recipe-header h1 {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .recipe-section {
+        width: 80%;
+        margin: auto;
+    }
+
+    .recipe-section h2 {
+        font-size: 1.8rem;
+    }
+
+}

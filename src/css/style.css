@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+html {
+    font: 400 62.5%;
+}
+
+:root {
+    --font-title: "Young Serif", sans-serif;
+    --font-text: "Outfit", sans-serif;
+    --paragraph-size: 1rem;
+    --background-body: hsl(30, 54%, 90%);
+    --background-header: hsl(330, 100%, 98%);
+    --background-main: hsl(0, 0%, 100%);    
+    --h1-color: hsl(24, 5%, 18%);   
+    --h2-color: hsl(14, 45%, 36%);
+    --h3-color: hsl(332, 51%, 32%); 
+    --p-color: hsl(30, 10%, 34%);
+    --border-color: hsl(30, 18%, 87%);
+}
+
+body {
+    min-height: 100vh;
+    max-width: 96rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8rem auto;
+    font-family: var(--font-title);
+    background-color: var(--background-body);
+}
+
+.main-recipe {
+    width: 75%;  
+    background-color: var(--background-main);
+    border-radius: 30px;  
+    padding: 3rem;
+}
+.recipe-img {
+    margin: 0;
+}
+.recipe-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.recipe-header h1 {
+    color: var(--h1-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-weight: 400;
+}
+
+.recipe-header p {
+    font-size: 1rem;
+    color: var(--p-color);
+    margin-bottom: 2rem;
+}
+
+.recipe-header__prep {
+    background-color: var(--background-header);
+    font-family: var(--font-text);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.recipe-header__prep h3 {
+    color: var(--h3-color);
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.recipe-header__prep ul {
+    margin: 0;
+    padding: 0;
+    color: var(--p-color);
+    
+}
+
+.recipe-header__prep li {
+    padding: .5rem 1.5rem ;
+    margin-left: 1.5rem;
+    
+}
+
+.recipe-header__prep li span {
+    font-weight: bold;
+}
+
+.recipe-header__prep li::marker {
+    color: var(--h3-color);
+    font-size: .9rem;
+}
+
+.recipe-section__ingredients {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.recipe-section__ingredients h2 {
+    color: var(--h2-color);
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.recipe-section__ingredients ul {
+    margin: 0;
+    padding: 1rem 0 1.5rem;
+    color: var(--p-color);
+    font-family: var(--font-text);
+}
+
+.recipe-section__ingredients li {
+    padding: .5rem 1.5rem ;
+    margin-left: 1.5rem;
+}
+
+.recipe-section__ingredients li::marker {
+    color: var(--h2-color);
+    font-size: .9rem;
+}
+
+.recipe-section__instructions {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.recipe-section__instructions h2 {
+    color: var(--h2-color);
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.recipe-section__instructions ol {
+    margin: 0;
+    padding: 1rem 0 1.5rem;
+    color: var(--p-color);
+    font-family: var(--font-text);
+}
+
+.recipe-section__instructions li {
+    padding: .5rem 1.5rem ;
+    margin-left: 1.5rem;
+}
+
+.recipe-section__instructions li span {
+    font-weight: bold;    
+}
+
+.recipe-section__instructions li::marker {
+    color: var(--h2-color);
+    font-weight: bold;
+}
+
+.recipe-section__nutrition {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-section__nutrition h2 {
+    color: var(--h2-color);
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.nutrition-table {
+    font-family: var(--font-text);
+    color: var(--p-color);
+    
+}
+
+.nutrition-table__caption {
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.nutrition-table__value {
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 2rem;
+}
+
+.nutrition-table__number {
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 2rem;
+    font-weight: bold;
+    color: var(--h2-color);
+}
+
+.nutrition-table__value2 {    
+    padding: 1rem 2rem;
+}
+
+.nutrition-table__number2 {    
+    padding: 1rem 2rem;
+    font-weight: bold;
+    color: var(--h2-color);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
